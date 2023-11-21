@@ -1,7 +1,10 @@
 body {
-    background-color: white;
+    background-color: #90c7e3;
     color: #555555;
+    background-image: -moz-linear-gradient( to bottom, white, #90c7e3);
+    background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 header {
     background-color: #002171;
@@ -9,21 +12,49 @@ header {
     background-image: url(sunset.jpg);
     background-position: right;
     background-repeat: no-repeat;
-    text-indent: 1em;
-    line-height: 400%;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+
 }
 
+main{
+        padding-top: 1px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+
+        display: block;
+
+
+}
+
+
+
+
+
 nav {
-    background-color: #bbdefb;
-    font-weight: bold;}
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+
+}
+    
 
 nav a  {text-decoration: none;}
 
-h1 {font-family: Georgia, 'Times New Roman', Times, serif;}
+h1 {font-family: Georgia, 'Times New Roman', Times, serif;
+margin-top: 0;
+
+}
 
 h2 {color: #1976d2;
 
     font-family: Georgia, 'Times New Roman', Times, serif;
+
+    offset: 1px #Cccccc;
+
 }
 
 dt {color: #002171;}
@@ -42,6 +73,7 @@ font-size: 75%;
 font-style: italic;
 text-align: center;
 font-family: Georgia, 'Times New Roman', Times, serif;
+padding: 2em;
 
 }
 
@@ -52,3 +84,39 @@ font-weight: bold;
 
 .contact id{font-weight: bold;}
 
+#wrapper {
+margin:auto;
+width: 80%;
+background-color: #ffffff;
+min-width: 960px;
+max-width: 2048px;
+offset: 3px #333333;
+}
+
+
+#homehero{
+
+height: 300px;
+background-image: url(coast.jpg);
+background-size: 100% 100%;
+background-repeat: none;
+
+}
+
+#yurthero{
+    
+    height: 300px;
+    background-image: url(yurt.jpg);
+    background-size: 100% 100%;
+    background-repeat: none;
+
+}
+
+#trailhero{
+    height: 300px;
+background-image: url(trail.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+
+
+}
