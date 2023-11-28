@@ -1,7 +1,7 @@
 body {
     background-color: #90c7e3;
     color: #555555;
-    background-image: -moz-linear-gradient( to bottom, white, #90c7e3);
+    background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3);
     background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
     
@@ -90,7 +90,8 @@ width: 80%;
 background-color: #ffffff;
 min-width: 960px;
 max-width: 2048px;
-offset: 3px #333333;
+box-shadow: 3px 3px 3px #333333;
+
 }
 
 
